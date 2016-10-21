@@ -1,5 +1,3 @@
-//javascript:(function(){var d=document;var e=d.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('src','http://spotter.labtrip.loc/js/bookmarklet_toptal.js');d.body.appendChild(e);})();
-
 var spotter = (function () {
   var body = document.body;
 
