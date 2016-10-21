@@ -11,10 +11,16 @@
         In order to use it, drag the following link to your bookmarks bar:
         <a
             id="js-link"
-            href="javascript:(function(){var d=document;var e=d.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('src','https://patillades.github.io/img-spotter/spotter.js');d.body.appendChild(e);})();"
+            href="javascript:(function(){var d=document;var e=d.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('src','https://patillades.github.io/img-spotter/spotter.min.js');d.body.appendChild(e);})();"
         >
             Spot images!
         </a>
+    </p>
+
+    <p>
+        If nothing happens when you click on the bookmark, it might be because the page you are on
+        is using <a href="https://content-security-policy.com/">Content Security Policy</a> in order
+        to reduce XSS risks. If that's the case, you will find a message in the browser's console.
     </p>
 
     <script>
